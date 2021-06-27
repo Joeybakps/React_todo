@@ -1,9 +1,11 @@
+import React from 'react';
+
 function Modal() {
   return (
-    <div>
+    <div className="modal">
       <p>Are you sure?</p>
-      <button>cancel</button>
-      <button>Confirm</button>
+      <button className="btn btn--alt">cancel</button>
+      <button className="btn">Confirm</button>
     </div>
   );
 }

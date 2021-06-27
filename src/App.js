@@ -1,7 +1,7 @@
 import React from 'react';
 import './style';
 import Todo from './components/Todo';
-import Modal from './components/Modal';
+
 
 const App = () => (
   <div>
@@ -9,6 +9,7 @@ const App = () => (
     <Todo text="learn react" />
     <Todo text="Master react" />
     <Todo text="Explore the fullstack" />
+ 
   </div>
 );
 
