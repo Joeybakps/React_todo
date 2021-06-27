@@ -1,6 +1,7 @@
 import React from 'react';
 import './style';
 import Todo from './components/Todo';
+import Modal from './components/Modal';
 
 const App = () => (
   <div>
